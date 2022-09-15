@@ -1,0 +1,52 @@
+.bg-body {
+  background-image: linear-gradient(gray, white);
+  width: 100%; }
+
+.row-2 {
+  /* --bs-gutter-x: 1.5rem; */
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x)); }
+
+ul {
+  text-align: center;
+  list-style: none; }
+
+.bg-card-red {
+  background-image: linear-gradient(red, gray); }
+
+.bg-card-blue {
+  background-image: linear-gradient(blue, gray); }
+
+.bg-card-green {
+  background-image: linear-gradient(green, gray); }
+
+.bg-card-orange {
+  background-image: linear-gradient(orange, gray); }
+
+.bg-card-violet {
+  background-image: linear-gradient(violet, gray); }
+
+.bg-card-back {
+  background-image: linear-gradient(gray, gray); }
+
+.text-family {
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.bg-pedido {
+  background-image: url("../images/fondotomate.png"); }
+
+.bg-reserva {
+  background-image: url("../images/recepcion.png"); }
+
+@keyframes rotar {
+  from {
+    transform: rotatey(0deg); }
+  to {
+    transform: rotatey(359deg); } }
+
+.logo {
+  animation: rotar 4s infinite linear; }
